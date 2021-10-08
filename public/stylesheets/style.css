@@ -17,3 +17,8 @@ a {
   color: black;
   
   }
+
+  .todoDiv {
+    display: flex;
+
+  }

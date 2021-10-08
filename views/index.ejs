@@ -9,7 +9,9 @@
       <% let counter = 0; %> 
       <% data.forEach(function(e){ %> 
         <li>
-          <%= e.todo %> - <%= e.done %>  <a href="/<%= e.id %>" >DELETE</a>
+          <div class='todoDiv'>
+            <%= e.todo %> - <%= e.done %>  <a href="/<%= e.id %>" >DELETE</a>
+          </div>
         </li>
         <% counter++ %> 
       <% }) %> 
