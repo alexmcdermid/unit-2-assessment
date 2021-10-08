@@ -1,0 +1,19 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+a {
+  background-color: rgb(237, 236, 237);
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 2px;
+  }
+  a:hover {
+  background-color: rgb(225, 225, 225);
+  color: black;
+  
+  }
